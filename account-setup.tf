@@ -1,5 +1,5 @@
 module "account_setup" {
-  source = "github.com/Coalfire-CF/terraform-aws-account-setup?ref=v0.0.42"
+  source = "github.com/domdepasquale/terraform-aws-account-setup?ref=main"
 
   aws_region         = var.aws_region
   default_aws_region = var.default_aws_region
